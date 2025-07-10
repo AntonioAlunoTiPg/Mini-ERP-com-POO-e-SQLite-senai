@@ -1,4 +1,4 @@
-# Mini-ERP-com-POO-e-SQLite-senai
+```
 # 📦 Sistema ERP Simples em Python
 
 Este projeto é um Sistema ERP (Enterprise Resource Planning) simples desenvolvido em Python. Ele foi criado com foco em modularidade, utilizando **classes** para modelar as entidades e **SQLite** para a persistência dos dados. É um excelente ponto de partida para quem está aprendendo sobre **Programação Orientada a Objetos (POO)**, gerenciamento de banco de dados e organização de projetos em Python.
@@ -32,7 +32,6 @@ O sistema oferece os seguintes módulos e funcionalidades:
 
 ## 📁 Estrutura do Projeto
 
-```text
 erp/
 ├── main.py            # Ponto de entrada da aplicação
 ├── database.py        # Operações com SQLite
@@ -40,3 +39,61 @@ erp/
 ├── crm.py             # Classe Cliente: gerenciamento de clientes
 ├── financeiro.py      # Classe Lancamento: gestão financeira
 └── utils.py           # Funções auxiliares (validação, formatação, etc.)
+
+---
+
+## 🛠️ Como Usar
+
+### Pré-requisitos
+
+Python 3 instalado
+
+Nenhuma biblioteca externa é necessária. Usa apenas:
+
+- sqlite3
+- hashlib
+- datetime
+- re
+- os
+- getpass
+
+### Instalação
+
+Clone o repositório:
+
+git clone [URL_DO_SEU_REPOSITORIO]
+cd erp
+
+Ou baixe o ZIP, extraia e navegue até a pasta erp/.
+
+### Execução
+
+Execute o sistema com:
+
+python main.py
+
+Siga as instruções exibidas no terminal para login ou cadastro.
+
+---
+
+## 💡 Pontos de Aprendizado e Dicas
+
+- POO na Prática: Classes bem definidas representam entidades do sistema.
+- Design Modular: Separação de responsabilidades facilita manutenção e leitura.
+- Interação com Banco de Dados: CRUD básico com sqlite3.
+- Tratamento de Exceções: Uso de try-except para lidar com erros comuns.
+- Segurança Básica: Hash de senhas usando SHA256.
+
+---
+
+## ✨ Próximos Passos e Desafios (Para Alunos Avançados)
+
+- ✅ Edição e Exclusão: Adicionar UPDATE e DELETE para Cliente, Usuário e Lançamentos.
+- ✅ Validações Robustas: Formato de telefone, campos obrigatórios, etc.
+- ✅ Interface Gráfica (GUI): Usar Tkinter, PyQt, Kivy ou outra biblioteca.
+- ✅ Relatórios Avançados: Filtros por data, tipo, categorias, exportação.
+
+---
+
+Este projeto é ideal para quem está aprendendo sobre organização de software, lógica de programação e conceitos básicos de sistemas ERP.
+```
